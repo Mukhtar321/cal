@@ -1,0 +1,122 @@
+body{ 
+    font-family: 'Londrina Shadow', sans-serif;
+    font-family: 'Space Mono', monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(185, 41%, 84%);
+}
+
+.card{
+    width: 750px;
+    height: 370px;
+    background-color: hsl(0, 0%, 100%);
+    align-items: center;
+    line-height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p { 
+    color: hsl(183, 100%, 15%);
+    position: absolute;
+    top:100px; 
+    left: 23rem; 
+    margin: 0;
+  }
+
+.input-container {
+    text-align: left;
+    position: absolute;
+    top: 130px;
+    left: 23rem;
+  }
+  
+input {
+    background-color: hsl(189, 41%, 97%);
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 4px;
+    width: 17rem;
+  }
+
+
+.select-tip {
+    color: hsl(183, 100%, 15%);
+    position: absolute; 
+    top: 190px; 
+    left: 23rem;
+    margin: 0;
+  } 
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    position: absolute; 
+    top: 310px; 
+    left: 23rem;
+    width: 18rem;
+    margin: 0;
+}
+
+.button {
+    padding: 10px;
+    text-align: center;
+    background-color: hsl(183, 100%, 15%);
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.nop {
+    color: hsl(183, 100%, 15%);
+    position: absolute;
+    top:350px; 
+    left: 23rem; 
+    margin: 0;
+  }
+
+.input-container2 {
+    text-align: left;
+    position: absolute;
+    bottom: 122px;
+    left: 23rem;
+  }
+  
+input {
+    background-color: hsl(189, 41%, 97%);
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 4px;
+    width: 17rem;
+  }
+
+.green {
+    width: 335px;
+    height: 335px;
+    background-color: hsl(183, 100%, 15%);  
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    position: absolute;
+    top:165px;
+    right: 345px;
+   }
+
+.tip-amount {
+    color: white;
+    position: absolute;
+    top:100px; 
+    left: 23rem; 
+    margin: 0;
+  }
+
+.attribution {
+    position:absolute;
+    bottom: 10px; 
+    text-align: center;
+  }
